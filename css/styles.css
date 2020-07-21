@@ -87,7 +87,7 @@ p {
   right: 300px;
 }
 .middle-container{
-  background: #e6f0e2;
+  background: #f2f9ef;
   padding: 10px;
 }
 .profile {
@@ -117,10 +117,14 @@ p {
 }
 
 .text-area1 {
-  width: 120%;
+  width: 75%;
+  padding-left: 215px;
 }
 
-.text-area2 {}
+.text-area2 {
+  width: 75%;
+  padding-right: 215px;
+}
 
 .skill-1 {
   width: 25%;
@@ -165,7 +169,7 @@ p {
 .bottom-container P {
   color: #308a0a;
   margin-top: 50px;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .footer-link {
@@ -207,21 +211,13 @@ p {
     right: 100px;
   }
 }
-@media all and (max-width: 991px){
+@media all and (max-width: 991px) {
+  .bottom-container p{
+    font-size: .9rem;
+  }
+}
+@media all and (max-width: 828px) {
   .bottom-container p{
     font-size: .8rem;
   }
-}
-@media all and (max-width: 736px){
-  .bottom-container p{
-    font-size: .5rem;
-  }
-}
-@media all and (max-width: 536px) {
-  .bottom-container p{
-    font-size: .3rem;
-  }
-}
-@media all and (max-width: 1806px) {
-
 }
