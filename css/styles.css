@@ -4,13 +4,10 @@ body {
   font-family: 'Merriweather', serif;
 }
 
-h1 {
-  color: #629c4a;
-  font-family: 'Sacramento', cursive;
-}
+
 
 h2 {
-  color: #308a0a;
+  color: #037853;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 2.5rem;
   font-weight: 500;
@@ -18,7 +15,7 @@ h2 {
 
 h3 {
   font-family: 'Josefin Sans', sans-serif;
-  color: #89c168;
+  color: #21ad81;
   font-size: 1.5rem;
   font-weight: 600;
 }
@@ -28,22 +25,22 @@ hr {
   border-top-style: dotted;
   border-width: 5px;
   width: 5%;
-  border-color: #cce3c1;
+  border-color: #e1ebe7;
   margin-bottom: 90px;
 }
 
 p {
   line-height: 2;
-  color: #385434;
+  color: #29433d;
 }
 .top-container {
-  background: #cdedc0;
+  background: #e1ebe7;
   position: relative;
   padding-top: 5px;
 }
 
 .top-container h1 {
-  color: #629c4a;
+  color: #21ad81;
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
   margin: 120px auto 0 auto;
@@ -52,7 +49,7 @@ p {
 }
 
 .top-container h2 {
-  color: #50a02f;
+  color: #21ad81;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.5rem;
   margin-top: 0px;
@@ -87,11 +84,11 @@ p {
   right: 300px;
 }
 .middle-container{
-  background: #f2f9ef;
+  background: #ffff;
   padding: 10px;
 }
 .profile {
-  width: 25%;
+  width: 50%;
   margin: 100px auto 100px auto;
   line-height: 2;
 }
@@ -101,31 +98,14 @@ p {
 }
 
 .profile-img {
-  width: 45%;
+  width: 20%;
 }
-
-.skills {
-  width: 50%;
-  margin: auto;
-}
-
 .skill-row {
-  width: 75%;
+  width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
   line-height: 2;
 }
-
-.text-area1 {
-  width: 75%;
-  padding-left: 215px;
-}
-
-.text-area2 {
-  width: 75%;
-  padding-right: 215px;
-}
-
 .skill-1 {
   width: 25%;
   float: left;
@@ -144,8 +124,8 @@ p {
 }
 
 .btn {
-  background: #72a65a;
-  color: #267106;
+  background: #5da996;
+  color: #037853;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -157,26 +137,27 @@ p {
 }
 
 .btn:hover {
-  background: #619849;
+  background: #488b7a;
   transition: 1s;
+  color: #ffff;
 }
 
 .bottom-container {
-  padding: 40px;
-  background: #c0e6af;
+  padding: 50px 0 20px;
+  background: #a3d3c7;
 }
 
 .bottom-container P {
-  color: #308a0a;
+  color: #037853;
   margin-top: 50px;
-  font-size: 1rem;
+  font-size: .75rem;
 }
 
 .footer-link {
   text-decoration: none;
-  color: #308a0a;
-  padding: 30px;
-  font-size: 1.3rem;
+  color: #037853;
+  font-size: 1rem;
+  padding: 0 40px;
 }
 @media all and (max-width: 1267px) {
   .btn{
@@ -209,15 +190,5 @@ p {
   }
   .right-cloud{
     right: 100px;
-  }
-}
-@media all and (max-width: 991px) {
-  .bottom-container p{
-    font-size: .9rem;
-  }
-}
-@media all and (max-width: 828px) {
-  .bottom-container p{
-    font-size: .8rem;
   }
 }
